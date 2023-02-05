@@ -1,0 +1,152 @@
+:root {
+    font-size: 16px;
+    line-height: 1.2;
+    background-color: #1e1e1e;
+    color: aqua;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* display: flex; */
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+header .header_menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .header_menu a {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.16em;
+    text-decoration-line: none;
+    color: #27c7ea;
+}
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+
+section {
+    padding: 0px 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.background_image {
+    width: 679px;
+    height: 667px;
+}
+
+@media screen and (max-width: 1600px) {
+    .background_image {
+        width: 479px;
+        height: 467px;
+    }
+}
+
+@media screen and (max-width: 1420px) {
+    .background_image {
+        width: 379px;
+        height: 367px;
+    }
+}
+
+section .cleannet_code h1 {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 110px;
+    text-align: center;
+    mix-blend-mode: normal;
+    color: #27c7ea;
+    text-shadow: 7px 4px 0px rgba(39, 199, 234, 0.36);
+}
+
+
+
+section .slogan_caption {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    text-align: center;
+    color: #27c7ea;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+section .quote_cleannet_code {
+    font-family: "Courier New";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #f7f7f7;
+    mix-blend-mode: normal;
+}
+
+section .cleannet_code_block_right {
+    padding-bottom: 32px;
+}
+
+section .join_us {
+    display: flex;
+    justify-content: center;
+}
+
+section .join_us_btn {
+    background: #f67545;
+    border-radius: 27px;
+
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 41px;
+    text-align: center;
+
+    color: #121014;
+    padding: 3px 12px;
+    text-decoration: none;
+}
+
+section .join_us_btn:hover {
+    background: #6cdb47;
+}
+
+.header_menu a:hover {
+    text-decoration-line: underline;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 2.5rem;
+}
